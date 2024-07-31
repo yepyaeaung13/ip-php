@@ -8,11 +8,16 @@ class Database
 {
     private $connection;
     private $statement;
-    public function __construct($config, $username = "if0_36936337", $password = "qJjMmVlXsfx1As")
+    private $username;
+    private $password;
+    public function __construct($config)
     {
         $dsn = "mysql:" . http_build_query($config, "", ";");
 
-        $this->connection = new PDO($dsn, $username, $password, [
+        $this->username = $_ENV["DB_USER"];
+        $this->password = $_ENV["DB_PASS"];
+
+        $this->connection = new PDO($dsn, $this->username, $this->password, [
             PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC
         ]);
     }

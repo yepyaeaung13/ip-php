@@ -3,9 +3,9 @@
 
 return [
     "database" => [
-        "host" => "sql112.infinityfree.com",
-        "port" => 3306,
-        "dbname" => "if0_36936337_ipdb",
+        "host" => $_ENV['HOST'],
+        "port" => $_ENV['PORT'],
+        "dbname" => $_ENV['DBNAME'],
         "charset" => "utf8mb4"
     ]
 ];

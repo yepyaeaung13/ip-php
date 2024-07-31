@@ -15,6 +15,10 @@ session_set_cookie_params($oneWeek);
 const BASE_PATH = __DIR__ . "/../";
 
 include BASE_PATH . "Core/functions.php";
+include base_path("vendor/autoload.php");
+
+$dotenv = Dotenv\Dotenv::createImmutable(BASE_PATH);
+$dotenv->load();
 
 spl_autoload_register(function ($class) {
     $class = str_replace("\\", DIRECTORY_SEPARATOR, $class);
