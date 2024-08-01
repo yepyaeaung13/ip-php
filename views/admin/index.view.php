@@ -4,7 +4,7 @@
 
 <section class="relative w-screen h-full">
     <div class="w-full mx-auto ">
-        <div class="flex justify-between lg:px-16 md:px-5 px-1 pt-2">
+        <div class="flex justify-between 2xl:px-16 md:px-5 px-1 pt-2">
             <h1>Projects : <?= count($projects) ?></h1>
             <button id="createFormBtn" class="hover:bg-white hover:border-primary hover:text-primary border duration-300 bg-third px-2 py-1 rounded-md text-white">New Project</button>
         </div>
@@ -23,6 +23,10 @@
                 <form action="/project/create" method="post" id="createForm" enctype="multipart/form-data" class="p-5 flex flex-col justify-center items-center gap-5">
                     <h1 class="text-center font-bold font-serif text-lg">Create Projects</h1>
                     <div class="w-full flex flex-col gap-3">
+                        <div class="flex flex-col gap-1">
+                            <label for="project-date">Project Date</label>
+                            <input type="month" name="project_date" id="project-date" class="border border-fifth rounded-md px-2 py-1 outline-none focus:border-blue-600" required>
+                        </div>
                         <div class="flex flex-col gap-1">
                             <label for="customer">Customer</label>
                             <input type="text" name="customer" id="customer" placeholder="enter your customer" class="border border-fifth rounded-md px-2 py-1 outline-none focus:border-blue-600" required>
@@ -81,6 +85,10 @@
                             <input type="text" disabled name="id" id="id" placeholder="enter your title" class="border border-fifth rounded-md px-2 py-1 outline-none focus:border-blue-600" required>
                         </div>
                         <div class="flex flex-col gap-1">
+                            <label for="project-date">Project Date</label>
+                            <input type="month" name="project_date" id="project-date" class="border border-fifth rounded-md px-2 py-1 outline-none focus:border-blue-600" required>
+                        </div>
+                        <div class="flex flex-col gap-1">
                             <label for="customer">Customer</label>
                             <input type="text" name="customer" id="customer" placeholder="enter your customer" class="border border-fifth rounded-md px-2 py-1 outline-none focus:border-blue-600" required>
                         </div>
@@ -121,11 +129,12 @@
                 </form>
             </div>
         </div>
-        <div class="h-[80vh] overflow-y-scroll border rounded-md lg:mx-16 md:mx-5 mx-1">
+        <div class="h-[80vh] overflow-y-scroll border rounded-md 2xl:mx-16 md:mx-5 mx-1">
             <table id="table" class="table-auto w-full text-nowrap">
                 <!-- table head  -->
                 <tr class="sticky top-0 z-10 border bg-third text-white">
                     <td class="w-16 text-center border border-gray-300 p-1">Id</td>
+                    <td class="w-56 text-center border border-gray-300 p-1">Project Date</td>
                     <td class="w-56 text-center border border-gray-300 p-1">Customer</td>
                     <td class="w-56 text-center border border-gray-300 p-1">Location</td>
                     <td class="w-56 text-center border border-gray-300 p-1">Service</td>
@@ -139,6 +148,7 @@
                     <?php foreach ($projects as $project) : ?>
                         <tr class="project-table-row">
                             <td class="project-id border border-gray-300 p-2"><?= $project['id'] ?></td>
+                            <td class="project-date border border-gray-300 p-2"> <?= $project['date'] ?></td>
                             <td class="project-customer border border-gray-300 p-2"> <?= $project['customer'] ?></td>
                             <td class="project-location border border-gray-300 p-2"><?= $project['location'] ?></td>
                             <td class="project-service border border-gray-300 p-2"><?= $project['service'] ?></td>

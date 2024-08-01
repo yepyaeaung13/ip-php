@@ -17,15 +17,15 @@
             <div class="lg::px-10 md:px-5 flex flex-wrap-reverse gap-5 lg:justify-between justify-center items-center">
 
                 <!-- categories  -->
-                <ul class="font-serif text-fifth text-nowrap flex flex-wrap gap-2 py-1">
+                <ul class="font-serif text-fifth text-nowrap flex flex-wrap gap-1 py-1">
                     <?php foreach ($categories as $category) : ?>
                         <li class="<?= $title == $category['value'] ? "bg-fourth text-white" : "" ?> cursor-pointer hover:bg-fourth hover:text-white duration-300 px-2 py-1 rounded-md"><a href="/project?title=<?= $category['value'] ?>"><?= $category['name'] ?></a></li>
                     <?php endforeach ?>
                 </ul>
 
                 <!-- search box  -->
-                <form action="" method="get" class="flex gap-1 items-center">
-                    <input type="search" name="search" id="search" class="bg-third px-2 py-1 rounded-full border lg:w-96 w-80 outline-none " placeholder="search by customers">
+                <form action="" method="get" class="flex gap-1 justify-center">
+                    <input type="search" name="search" id="search" class="bg-third px-2 py-1 rounded-full border w-80 outline-none " placeholder="search by customers">
                 </form>
             </div>
         </div>
@@ -57,7 +57,7 @@
                         </p>
                         <div class="flex gap-2">
                             <span class="px-2 text-xs <?= isset($_SESSION['user']) ? "block" : "hidden" ?>">Project Id - <?= $project['id'] ?></span>
-                            <span class="px-2 text-xs"><?= $project['created_at'] ?></span>
+                            <input type="month" value="<?= $project['date'] ?>" class="px-2 text-xs bg-white" disabled>
                         </div>
                         <div class="flex flex-wrap lg:gap-5 md:gap-1">
                             <h1 class="font-bold flex gap-1 items-center">
@@ -79,81 +79,109 @@
             </div>
 
             <!-- page button  -->
-            <?php if (!isset($_GET['search'])) : ?>
-                <div>
-                    <div id="pagination-parent" class="mt-5 font-medium flex gap-5 justify-center">
+            <div>
+                <div id="pagination-parent" class="mt-5 font-medium flex gap-5 justify-center">
 
-                        <!-- prev button  -->
-                        <button id="prev-btn" class="border border-primary px-2 rounded-md"><a class=" <?= $page == 1 ? "pointer-events-none text-fifth" : "" ?>" href="/project?title=<?= $title ?>&page=<?= $page - 1 ?>">prev</a></button>
+                    <!-- prev button  -->
+                    <button id="prev-btn" class="border border-primary px-2 rounded-md"><a class=" <?= $page == 1 ? "pointer-events-none text-fifth" : "" ?>" href="/project?title=<?= $title ?>&page=<?= $page - 1 ?>">prev</a></button>
 
-                        <ul class="flex gap-1">
-                            <!-- start page  -->
-                            <li class="px-2 rounded-full <?= $page >= 5  ? "block" : "hidden" ?>"><a href="/projects?title=<?= $title ?>&page=1">1</a></li>
+                    <ul class="flex gap-1">
+                        <!-- start page  -->
+                        <li class="px-2 rounded-full <?= $page >= 5  ? "block" : "hidden" ?>"><a href="/projects?title=<?= $title ?>&page=1">1</a></li>
 
-                            <!-- ... page  -->
-                            <li class="px-2 rounded-full <?= $page >= 5  ? "block" : "hidden" ?>">...</li>
+                        <!-- ... page  -->
+                        <li class="px-2 rounded-full <?= $page >= 5  ? "block" : "hidden" ?>">...</li>
 
-                            <!-- calculate pagination number per display -->
-                            <?php $paginationNumber = $total_page < 6 ? $total_page : $page + 3 ?>
+                        <!-- calculate pagination number per display -->
+                        <?php $paginationNumber = $total_page < 6 ? $total_page : $page + 3 ?>
 
-                            <!-- calculate last number per display  -->
-                            <?php $maxNumber = $paginationNumber > $total_page ? $total_page : $paginationNumber ?>
+                        <!-- calculate last number per display  -->
+                        <?php $maxNumber = $paginationNumber > $total_page ? $total_page : $paginationNumber ?>
 
-                            <!-- calculate start number per display -->
-                            <?php $paginationStart = $page >= 5 ? $page - 2 : 1 ?>
+                        <!-- calculate start number per display -->
+                        <?php $paginationStart = $page >= 5 ? $page - 2 : 1 ?>
 
-                            <!-- pagination link  -->
-                            <?php for ($paginationStart; $paginationStart < $maxNumber; $paginationStart++) : ?>
-                                <li class="px-2 rounded-full <?= $page === $paginationStart ? "text-white bg-primary" : "" ?>"><a href="/project?title=<?= $title ?>&page=<?= $paginationStart ?>"><?= $paginationStart ?></a></li>
-                            <?php endfor ?>
+                        <!-- pagination link  -->
+                        <?php for ($paginationStart; $paginationStart < $maxNumber; $paginationStart++) : ?>
+                            <li class="px-2 rounded-full <?= $page === $paginationStart ? "text-white bg-primary" : "" ?>"><a href="/project?title=<?= $title ?>&page=<?= $paginationStart ?>"><?= $paginationStart ?></a></li>
+                        <?php endfor ?>
 
-                            <!-- ... page  -->
-                            <li class="px-2 rounded-full <?= $total_page < 5 || $page == $total_page ? "hidden" : "block" ?>">...</li>
+                        <!-- ... page  -->
+                        <li class="px-2 rounded-full <?= $total_page < 5 || $page == $total_page ? "hidden" : "block" ?>">...</li>
 
-                            <!-- last page  -->
-                            <li class="px-2 rounded-full <?= $page == $total_page ? "text-white bg-primary" : "" ?>"><a href="/project?title=<?= $title ?>&page=<?= $total_page ?>"><?= $total_page ?></a></li>
-                        </ul>
+                        <!-- last page  -->
+                        <li class="px-2 rounded-full <?= $page == $total_page ? "text-white bg-primary" : "" ?>"><a href="/project?title=<?= $title ?>&page=<?= $total_page ?>"><?= $total_page ?></a></li>
+                    </ul>
 
-                        <!-- next button  -->
-                        <button id="next-btn" class="border border-primary px-2 rounded-md"><a class="<?= $page == $total_page || $total_page == 0 ? "pointer-events-none text-fifth" : "" ?>" href="/project?title=<?= $title ?>&page=<?= $page + 1 ?>">next</a></button>
-                    </div>
+                    <!-- next button  -->
+                    <button id="next-btn" class="border border-primary px-2 rounded-md"><a class="<?= $page == $total_page || $total_page == 0 ? "pointer-events-none text-fifth" : "" ?>" href="/project?title=<?= $title ?>&page=<?= $page + 1 ?>">next</a></button>
                 </div>
-            <?php endif ?>
+            </div>
         </div>
     </div>
 
     <!-- our valuable customers  -->
     <div class="bg-third text-white">
-        <div class="lg:px-16 md:px-5 w-full py-10 mx-auto flex flex-col items-center gap-10">
+        <div class="2xl:px-16 md:px-5 lg:w-5/6 w-full py-10 mx-auto flex flex-col gap-2">
             <div class="flex justify-center">
-                <h1 class="text-xl font-serif font-bold">Our Valuable Customers</h1>
+                <h1 class="text-xl font-serif font-bold mb-5">Our Valuable Customers</h1>
             </div>
-            <ul class="w-full md:px-10 grid md:grid-cols-4 grid-cols-2 font-bold gap-5 px-3 justify-center items-center font-serif">
-                <li>Asia Royal Hospital</li>
-                <li>ARYU Hospital</li>
-                <li>Chinese-47</li>
-                <li>Thai-47</li>
-                <li>Sushi Tai</li>
-                <li>MAEX</li>
-                <li>Pann Wut Hmone</li>
-                <li>Atrium Condo</li>
-                <li>Taik 2 Lone</li>
-                <li>Century Beverage</li>
-                <li>ESI Food</li>
-                <li>Sun Flower</li>
-                <li>Hledan Center</li>
-                <li>MISY School</li>
-                <li>Stanfort international School</li>
-                <li>WEBS Collage</li>
-                <li>Phyo Wai Vinyl</li>
-                <li>Kyaik Hto Hotel</li>
-                <li>Academy Hotel</li>
-                <li>Top Hotel</li>
-                <li>Royal Golden View Hotel</li>
-                <li>Sat Sun Hotel</li>
-                <li>Aung Zaya Hotel</li>
-                <li>Minglar Garden Resort</li>
-            </ul>
+            <!-- hosiptals  -->
+            <div class="bg-secondary p-2 rounded-md flex flex-col gap-1">
+                <h1 class="font-serif text-lg font-bold">Hospitals</h1>
+                <ul class="w-full grid md:grid-cols-5 grid-cols-2 font-medium gap-2 px-3 justify-center items-center font-serif">
+                    <li>Asia Royal Hospital</li>
+                    <li>ARYU Hospital</li>
+                </ul>
+            </div>
+            <!-- hotels  -->
+            <div class="bg-secondary p-2 rounded-md flex flex-col gap-1">
+                <h1 class="font-serif text-lg font-bold">Hotels</h1>
+                <ul class="w-full grid md:grid-cols-5 grid-cols-2 font-medium gap-2 px-3 justify-center items-center font-serif">
+                    <li>Royal Golden View Hotel</li>
+                    <li>Kyaik Hto Hotel</li>
+                    <li>Academy Hotel</li>
+                    <li>Top Hotel</li>
+                    <li>Sat Sun Hotel</li>
+                    <li>Aung Zaya Hotel</li>
+                    <li>Minglar Garden Resort</li>
+                </ul>
+            </div>
+            <!-- schools  -->
+            <div class="bg-secondary p-2 rounded-md flex flex-col gap-1">
+                <h1 class="font-serif text-lg font-bold">Schools</h1>
+                <ul class="w-full grid md:grid-cols-5 grid-cols-2 font-medium gap-2 px-3 justify-center items-center font-serif">
+                    <li>Stanfort international School</li>
+                    <li>MISY School</li>
+                    <li>WEBS Collage</li>
+                    <li>Phyo Wai Vinyl</li>
+                </ul>
+            </div>
+            <!-- Restaurants & Bar -->
+            <div class="bg-secondary p-2 rounded-md flex flex-col gap-1">
+                <h1 class="font-serif text-lg font-bold">Restaurants & Bar</h1>
+                <ul class="w-full grid md:grid-cols-5 grid-cols-2 font-medium gap-2 px-3 justify-center items-center font-serif">
+                    <li>Chinese-47</li>
+                    <li>Thai-47</li>
+                    <li>Sushi Tai</li>
+                    <li>The Myst Bar</li>
+                </ul>
+            </div>
+            <!-- factory  -->
+            <div class="bg-secondary p-2 rounded-md flex flex-col gap-1">
+                <h1 class="font-serif text-lg font-bold">Factory & Corporate</h1>
+                <ul class="w-full grid md:grid-cols-5 grid-cols-2 font-medium gap-2 px-3 justify-center items-center font-serif">
+                    <li>MAEX</li>
+                    <li>Pann Wut Hmone</li>
+                    <li>Atrium Condo</li>
+                    <li>Taik 2 Lone</li>
+                    <li>Century Beverage</li>
+                    <li>ESI Food</li>
+                    <li>Sun Flower</li>
+                    <li>Hledan Center</li>
+                    <li>Phyo Wai Vinyl</li>
+                </ul>
+            </div>
         </div>
     </div>
 </section>

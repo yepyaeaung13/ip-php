@@ -27,6 +27,7 @@ if (table !== null) {
       //   select current projects data
       const row = e.target.closest(".project-table-row");
       const id = row.querySelector(".project-id");
+      const projectDate = row.querySelector(".project-date");
       const customer = row.querySelector(".project-customer");
       const location = row.querySelector(".project-location");
       const service = row.querySelector(".project-service");
@@ -35,6 +36,7 @@ if (table !== null) {
 
       //   select update form data
       const updateId = updateForm.querySelector("#id");
+      const updateProjectDate = updateForm.querySelector("#project-date");
       const updateCustomer = updateForm.querySelector("#customer");
       const updateLocation = updateForm.querySelector("#location");
       const updateService = updateForm.querySelector("#service");
@@ -44,6 +46,7 @@ if (table !== null) {
 
       // data binding
       updateId.value = id.innerText;
+      updateProjectDate.value = projectDate.innerText;
       updateCustomer.value = customer.innerText;
       updateLocation.value = location.innerText;
       updateService.value = service.innerText;

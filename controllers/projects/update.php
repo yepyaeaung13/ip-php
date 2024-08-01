@@ -10,6 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST" && $_SESSION['user']) {
     $db = new Database($config['database']);
 
     $id = $_POST['id'];
+    $projectDate = $_POST['project_date'];
     $customer = $_POST['customer'];
     $service = $_POST['service'];
     $location = $_POST['location'];
@@ -25,7 +26,8 @@ if ($_SERVER['REQUEST_METHOD'] === "POST" && $_SESSION['user']) {
 
         move_uploaded_file($updatePhotoTmp, $updatePhotoSrc);
 
-        $db->query("UPDATE `projects` SET `customer`=:customer,`location`=:location,`service`=:service,`categories`=:categories,`photo`=:photo,`update_at`=NOW() WHERE id=:id", [
+        $db->query("UPDATE `projects` SET `date`=:date `customer`=:customer,`location`=:location,`service`=:service,`categories`=:categories,`photo`=:photo,`update_at`=NOW() WHERE id=:id", [
+            "date" => $projectDate,
             "customer" => $customer,
             "location" => $location,
             "service" => $service,
@@ -34,7 +36,8 @@ if ($_SERVER['REQUEST_METHOD'] === "POST" && $_SESSION['user']) {
             "id" => $id,
         ]);
     } else {
-        $db->query("UPDATE `projects` SET `customer`=:customer,`location`=:location,`service`=:service,`categories`=:categories,`update_at`=NOW() WHERE id=:id", [
+        $db->query("UPDATE `projects` SET `date`=:date `customer`=:customer,`location`=:location,`service`=:service,`categories`=:categories,`update_at`=NOW() WHERE id=:id", [
+            "date" => $projectDate,
             "customer" => $customer,
             "location" => $location,
             "service" => $service,

@@ -23,7 +23,7 @@
     </section>
 
     <!-- show more btn  -->
-    <div class=" row-span-1 flex justify-center">
+    <div class=" row-span-1 flex justify-center md:translate-y-0 -translate-y-5">
         <button class="hover:text-primary duration-300">
             <svg xmlns="http://www.w3.org/2000/svg" class="size-6 animate-bounce" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 5.25 7.5 7.5 7.5-7.5m-15 6 7.5 7.5 7.5-7.5" />
@@ -99,7 +99,7 @@
                 <span class="text-white w-full bg-secondary absolute left-0 bottom-0 px-2 py-1 z-50">CCTV Installation & Service</span>
             </div>
             <div data-aos="fade-up" data-aos-duration="1000" class="h-60 relative overflow-hidden">
-                <div style="background-image: url(assets/photos/solar.jpeg);" class="h-full bg-cover bg-center bg-fourth/45 bg-blend-multiply hover:scale-[105%] duration-300">
+                <div style="background-image: url(assets/photos/solar.jpg);" class="h-full bg-cover bg-center bg-fourth/45 bg-blend-multiply hover:scale-[105%] duration-300">
                 </div>
                 <span class="text-white w-full bg-secondary absolute left-0 bottom-0 px-2 py-1 z-50">Solar Systems Installation & Service</span>
             </div>
@@ -119,7 +119,7 @@
                 <span class="text-white w-full bg-secondary absolute left-0 bottom-0 px-2 py-1 z-50">WIFI & Network Solutions</span>
             </div>
             <div data-aos="fade-up" data-aos-duration="1000" class="h-60 relative overflow-hidden">
-                <div style="background-image: url(assets/photos/pabx.jpeg);" class="h-full bg-cover bg-center bg-fourth/45 bg-blend-multiply hover:scale-[105%] duration-300">
+                <div style="background-image: url(assets/photos/pabx.jpeg);" class="h-full bg-cover bg-bottom bg-fourth/45 bg-blend-multiply hover:scale-[105%] duration-300">
                 </div>
                 <span class="text-white w-full bg-secondary absolute left-0 bottom-0 px-2 py-1 z-50">PABX, IPBX Systems Installation & Service </span>
             </div>
@@ -137,6 +137,11 @@
                 <div style="background-image: url(assets/photos/pa.jpg);" class="h-full bg-cover bg-center bg-fourth/45 bg-blend-multiply hover:scale-[105%] duration-300">
                 </div>
                 <span class="text-white w-full bg-secondary absolute left-0 bottom-0 px-2 py-1 z-50">Public Address (PA) Systems Installation & Service </span>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" class="h-60 relative overflow-hidden">
+                <div style="background-image: url(assets/photos/tender.jpeg);" class="h-full bg-cover bg-center bg-fourth/45 bg-blend-multiply hover:scale-[105%] duration-300">
+                </div>
+                <span class="text-white w-full bg-secondary absolute left-0 bottom-0 px-2 py-1 z-50">Tender Projects Service </span>
             </div>
         </div>
     </section>
@@ -195,7 +200,7 @@
                     </p>
                     <div class="flex gap-2">
                         <span class="px-2 text-xs <?= isset($_SESSION['user']) ? "block" : "hidden" ?>">Project Id - <?= $project['id'] ?></span>
-                        <span class="px-2 text-xs"><?= $project['created_at'] ?></span>
+                        <input type="month" value="<?= $project['date'] ?>" class="px-2 text-xs bg-white" disabled>
                     </div>
                     <div class="flex flex-wrap gap-5">
                         <h1 class="font-bold flex gap-1 items-center">

@@ -23,7 +23,7 @@
                     Feasible Survey and Estimation
                 </p>
                 <p class="list-disc list-item">
-                    Technical Consultancy and Quo
+                    Technical Consultancy and Quote
                 <p class="list-disc list-item">
                     Emergency Call and Services
                 </p>
@@ -53,7 +53,7 @@
         </div>
 
         <!-- Solar systems  -->
-        <div class="h-56 flex flex-col gap-2 rounded-md justify-end md:p-5 p-2 bg-cover bg-center bg-third text-white bg-blend-multiply" style="background-image: url(assets/photos/solar.jpeg)">
+        <div class="h-56 flex flex-col gap-2 rounded-md justify-end md:p-5 p-2 bg-cover bg-center bg-third text-white bg-blend-multiply" style="background-image: url(assets/photos/solar.jpg)">
             <h1 class="text-xl font-serif font-bold">Solar Systems</h1>
             <p class="leading-6 line-clamp-5">
                 Harnessing solar energy is a sustainable and cost-effective solution for any organization. Our Solar Systems provide reliable and efficient power, reducing your dependence on traditional energy sources and lowering utility costs. We offer comprehensive services from initial assessment and system design to installation and maintenance.
@@ -105,6 +105,14 @@
             <h1 class="text-xl font-serif font-bold">Vehicle GPS Tracking Systems</h1>
             <p class="leading-6 line-clamp-5">
                 Keeping track of your fleet or personal vehicles is vital for security, efficiency, and peace of mind. Our Vehicle GPS Tracking Systems offer real-time monitoring and comprehensive tracking features to ensure the safety and optimal management of your vehicles.
+            </p>
+        </div>
+
+        <!-- tender projects -->
+        <div class="h-56 flex flex-col gap-2 rounded-md justify-end md:p-5 p-2 bg-cover bg-center bg-third text-white bg-blend-multiply" style="background-image: url(assets/photos/tender.jpeg)">
+            <h1 class="text-xl font-serif font-bold">Tender Projects Service</h1>
+            <p class="leading-6 line-clamp-5">
+                At Intelligence Power Co., Ltd. (IP), we specialize in delivering comprehensive solutions for tender projects, ensuring the highest standards of quality and efficiency. Our expertise and dedication make us the ideal partner for executing complex projects across various sectors.
             </p>
         </div>
     </div>

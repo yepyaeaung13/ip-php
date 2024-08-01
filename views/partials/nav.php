@@ -31,9 +31,9 @@
         <ul class="col-span-8 text-lg font-serif hidden md:flex justify-center items-center lg:gap-10 md:gap-5">
             <li><a class="<?= uris("/") ? "bg-fourth/55 text-white" : "hover:bg-fourth/55 hover:text-white text-gray-300" ?> px-5 py-1 rounded-md duration-300" href="/">Home</a></li>
 
-            <li><a class="<?= uris("/project") ? "bg-fourth/55 text-white" : "hover:bg-fourth/55 hover:text-white text-gray-300" ?> px-5 py-1 rounded-md duration-300" href="/project">Projects</a></li>
-
             <li><a class="<?= uris("/service") ? "bg-fourth/55 text-white" : "hover:bg-fourth/55 hover:text-white text-gray-300" ?> px-5 py-1 rounded-md duration-300" href="/service">Services</a></li>
+
+            <li><a class="<?= uris("/project") ? "bg-fourth/55 text-white" : "hover:bg-fourth/55 hover:text-white text-gray-300" ?> px-5 py-1 rounded-md duration-300" href="/project">Projects</a></li>
 
             <li><a class="<?= uris("/contact") ? "bg-fourth/55 text-white" : "hover:bg-fourth/55 hover:text-white text-gray-300" ?> px-5 py-1 rounded-md duration-300" href="/contact">Contact</a></li>
         </ul>
@@ -52,9 +52,9 @@
                 <ul class="flex flex-col justify-center items-center gap-5">
                     <li><a class="<?= uris("/") ? "bg-fourth/55 text-white" : "hover:bg-fourth/55 hover:text-white text-gray-300" ?> px-5 py-1 rounded-md duration-300" href="/">Home</a></li>
 
-                    <li><a class="<?= uris("/project") ? "bg-fourth/55 text-white" : "hover:bg-gray-400/45 hover:text-white text-gray-300" ?> px-5 py-1 rounded-md duration-300" href="/project">Projects</a></li>
-
                     <li><a class="<?= uris("/service") ? "bg-fourth/55 text-white" : "hover:bg-gray-400/45 hover:text-white text-gray-300" ?> px-5 py-1 rounded-md duration-300" href="/service">Services</a></li>
+
+                    <li><a class="<?= uris("/project") ? "bg-fourth/55 text-white" : "hover:bg-gray-400/45 hover:text-white text-gray-300" ?> px-5 py-1 rounded-md duration-300" href="/project">Projects</a></li>
 
                     <li><a class="<?= uris("/contact") ? "bg-fourth/55 text-white" : "hover:bg-gray-400/45 hover:text-white text-gray-300" ?> px-5 py-1 rounded-md duration-300" href="/contact">Contact</a></li>
                 </ul>

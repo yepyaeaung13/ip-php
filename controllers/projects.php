@@ -18,6 +18,7 @@ $categories = [
     ['name' => "PA", "value" => "pa"],
     ['name' => "MATV & CATV", "value" => "matv"],
     ['name' => "GPS", "value" => "gps"],
+    ['name' => "Tender Projects", "value" => "tender"],
 ];
 
 $projects_per_page = 6;
@@ -39,11 +40,17 @@ if (isset($_GET["search"])) {
     }
 }
 
-if ($title == "all") {
-    $allProjects = $db->query('SELECT * FROM projects ORDER BY customer ASC')->getAll();
+if (isset($_GET["search"])) {
+    $search = "%" . $_GET['search'] . "%";
+    $allProjects = $db->query("SELECT * FROM projects WHERE customer LIKE '$search' ORDER BY customer ASC")->getAll();
 } else {
-    $allProjects = $db->query('SELECT * FROM projects WHERE categories=:categories', ['categories' => $title])->getAll();
+    if ($title == "all") {
+        $allProjects = $db->query('SELECT * FROM projects ORDER BY customer ASC')->getAll();
+    } else {
+        $allProjects = $db->query('SELECT * FROM projects WHERE categories=:categories', ['categories' => $title])->getAll();
+    }
 }
+
 
 $total_page = ceil(count($allProjects) / $projects_per_page);
 

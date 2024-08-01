@@ -1,5 +1,5 @@
 <nav class="bg-secondary text-sm">
-    <div class="relative w-full mx-auto flex items-center justify-between md:px-16 px-2 py-2">
+    <div class="relative w-full mx-auto flex items-center justify-between 2xl:px-16 md:px-5 px-2 py-2">
         <div class="flex items-center">
             <div class="flex-shrink-0">
                 <a href="/">

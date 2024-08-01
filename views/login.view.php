@@ -73,7 +73,7 @@
                 </svg>
             </a>
         </div>
-        <p class="">&copy; 2024 Intelligence Power Co.,Ltd. All rights reserved.</p>
+        <p class="text-center">&copy; 2024 Intelligence Power Co.,Ltd. All rights reserved.</p>
     </div>
 
 </div>

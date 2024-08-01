@@ -4,7 +4,7 @@
 
 <section class="relative w-screen h-full">
     <div class="w-full mx-auto ">
-        <div class="h-[80vh] overflow-y-scroll border rounded-md lg:mx-16 md:mx-5 mx-1">
+        <div class="h-[80vh] overflow-y-scroll border rounded-md 2xl:mx-16 md:mx-5 mx-1">
             <table id="table" class="table-auto w-full text-nowrap">
                 <!-- table head  -->
                 <tr class="sticky top-0 z-10 border bg-third text-white">
