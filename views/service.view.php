@@ -37,7 +37,7 @@
     <!-- services -->
     <div class="2xl:px-16 w-full mx-auto md:p-5 p-1 rounded-md grid md:grid-cols-2 grid-cols-1 gap-2">
         <!-- CCTV  -->
-        <div class="h-56 flex flex-col gap-2 rounded-md justify-end md:p-5 p-2 bg-cover bg-center bg-third text-white bg-blend-multiply" style="background-image: url(assets/photos/bg.jpg)">
+        <div class="h-56 flex flex-col gap-2 rounded-md justify-end md:p-5 p-2 bg-cover bg-center bg-third text-white bg-blend-multiply" style="background-image: url(assets/photos/cctv.jpg)">
             <h1 class="text-xl font-serif font-bold">CCTV Installation & Service</h1>
             <p class="leading-6 line-clamp-5">
                 Our CCTV solutions offer state-of-the-art surveillance to protect your premises. We provide a range of options tailored to your specific needs, including high-definition cameras, night vision, and remote access capabilities. Our professional installation ensures optimal coverage and performance, and our ongoing maintenance services keep your systems running smoothly.
@@ -45,7 +45,7 @@
         </div>
 
         <!-- wifi and network  -->
-        <div class="h-56 flex flex-col gap-2 rounded-md justify-end md:p-5 p-2 bg-cover bg-center bg-third text-white bg-blend-multiply" style="background-image: url(assets/photos/wifi.jpeg)">
+        <div class="h-56 flex flex-col gap-2 rounded-md justify-end md:p-5 p-2 bg-cover bg-center bg-third text-white bg-blend-multiply" style="background-image: url(assets/photos/wifi.jpg)">
             <h1 class="text-xl font-serif font-bold">Wifi & Network Solutions</h1>
             <p class="leading-6 line-clamp-5">
                 We understand the importance of a robust and secure network infrastructure. Our Wifi and network solutions are designed to provide seamless connectivity and secure data transmission. From initial setup to ongoing support, we ensure your network is optimized for performance and security, helping you stay connected without interruptions.
@@ -77,7 +77,7 @@
         </div>
 
         <!-- PABX  -->
-        <div class="h-56 flex flex-col gap-2 rounded-md justify-end md:p-5 p-2 bg-cover bg-center bg-third text-white bg-blend-multiply" style="background-image: url(assets/photos/pabx.jpeg)">
+        <div class="h-56 flex flex-col gap-2 rounded-md justify-end md:p-5 p-2 bg-cover bg-center bg-third text-white bg-blend-multiply" style="background-image: url(assets/photos/pabx.jpg)">
             <h1 class="text-xl font-serif font-bold">PABX Systems</h1>
             <p class="leading-6 line-clamp-5">
                 Effective communication is crucial for any business. Our PABX systems streamline internal and external communications, offering features such as call routing, voicemail, and conferencing. We handle everything from installation to support, ensuring your communication infrastructure enhances your business operations.
@@ -93,7 +93,7 @@
         </div>
 
         <!-- MATV, CATV  -->
-        <div class="h-56 flex flex-col gap-2 rounded-md justify-end md:p-5 p-2 bg-cover bg-center bg-third text-white bg-blend-multiply" style="background-image: url(assets/photos/matv.jpeg)">
+        <div class="h-56 flex flex-col gap-2 rounded-md justify-end md:p-5 p-2 bg-cover bg-center bg-third text-white bg-blend-multiply" style="background-image: url(assets/photos/matv.jpg)">
             <h1 class="text-xl font-serif font-bold">MATV & CATV Systems</h1>
             <p class="leading-6 line-clamp-5">
                 Ensuring clear and reliable television signal distribution is essential for many businesses and residential complexes. Our MATV (Master Antenna Television) and CATV (Community Antenna Television) systems deliver high-quality broadcast and cable television signals to multiple receivers within a building or complex.

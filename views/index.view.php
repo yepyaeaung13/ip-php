@@ -4,7 +4,7 @@
 <?php include "partials/button.php" ?>
 
 <!-- hero and nav  -->
-<main class="h-screen w-full grid grid-rows-12 md:p-5 text-white bg-third bg-no-repeat bg-center bg-cover bg-blend-multiply" style="background-image: url('assets/photos/bg.jpg')">
+<main class="h-screen w-full grid grid-rows-12 md:p-5 text-white bg-third/75 bg-no-repeat bg-center bg-cover bg-blend-multiply" style="background-image: url('assets/photos/bg.jpg')">
 
     <header class="row-span-2">
         <?php include "partials/nav.php" ?>
@@ -14,7 +14,7 @@
     <section class="row-span-9 flex items-center justify-center">
         <div class="md:w-96 w-80 flex flex-col items-center gap-5">
             <h1 class="text-xl font-bold text-center">Protect What Matters Most with Our Comprehensive Security Solutions</h1>
-            <p class="text-center">Providing top-notch security services including CCTV, Door Card Access, and more.</p>
+            <p class="text-center font-medium">Providing top-notch security services including CCTV, Door Card Access, and more.</p>
             <div class="flex gap-5">
                 <button id="moreBtn" class="hover:bg-transparent duration-300 border border-primary bg-primary px-3 py-1 rounded-md">Learn More</button>
                 <a href="/contact#quotationForm" class="hover:bg-transparent duration-300 border border-primary bg-primary px-3 py-1 rounded-md">Get a Quote</a>
@@ -23,7 +23,7 @@
     </section>
 
     <!-- show more btn  -->
-    <div class=" row-span-1 flex justify-center md:translate-y-0 -translate-y-5">
+    <div class=" row-span-1 flex justify-center md:translate-y-0 -translate-y-10">
         <button class="hover:text-primary duration-300">
             <svg xmlns="http://www.w3.org/2000/svg" class="size-6 animate-bounce" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 5.25 7.5 7.5 7.5-7.5m-15 6 7.5 7.5 7.5-7.5" />
@@ -94,7 +94,7 @@
         </div>
         <div class="xl:px-10 px-1 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-2 text-sm">
             <div data-aos="fade-up" data-aos-duration="1000" class="h-60 relative overflow-hidden">
-                <div style="background-image: url(assets/photos/bg.jpg);" class="h-full bg-cover bg-center bg-fourth/45 bg-blend-multiply hover:scale-[105%] duration-300">
+                <div style="background-image: url(assets/photos/cctv.jpg);" class="h-full bg-cover bg-no-repeat bg-center bg-fourth/45 bg-blend-multiply hover:scale-[105%] duration-300">
                 </div>
                 <span class="text-white w-full bg-secondary absolute left-0 bottom-0 px-2 py-1 z-50">CCTV Installation & Service</span>
             </div>
@@ -109,17 +109,17 @@
                 <span class="text-white w-full bg-secondary absolute left-0 bottom-0 px-2 py-1 z-50">Fire Alarm Systems</span>
             </div>
             <div data-aos="fade-up" data-aos-duration="1000" class="h-60 relative overflow-hidden">
-                <div style="background-image: url(assets/photos/card-access.jpg);" class="h-full bg-cover bg-center bg-fourth/45 bg-blend-multiply hover:scale-[105%] duration-300">
+                <div style="background-image: url(assets/photos/card-access.jpg);" class="h-full bg-center bg-no-repeat bg-cover bg-fourth/45 bg-blend-multiply hover:scale-[105%] duration-300">
                 </div>
                 <span class="text-white w-full bg-secondary absolute left-0 bottom-0 px-2 py-1 z-50">Attendance Fingerprint & Card Access Systems</span>
             </div>
             <div data-aos="fade-up" data-aos-duration="1000" class="h-60 relative overflow-hidden">
-                <div style="background-image: url(assets/photos/wifi.jpeg);" class="h-full bg-cover bg-center bg-fourth/45 bg-blend-multiply hover:scale-[105%] duration-300">
+                <div style="background-image: url(assets/photos/wifi.jpg);" class="h-full bg-cover bg-center bg-fourth/45 bg-blend-multiply hover:scale-[105%] duration-300">
                 </div>
                 <span class="text-white w-full bg-secondary absolute left-0 bottom-0 px-2 py-1 z-50">WIFI & Network Solutions</span>
             </div>
             <div data-aos="fade-up" data-aos-duration="1000" class="h-60 relative overflow-hidden">
-                <div style="background-image: url(assets/photos/pabx.jpeg);" class="h-full bg-cover bg-bottom bg-fourth/45 bg-blend-multiply hover:scale-[105%] duration-300">
+                <div style="background-image: url(assets/photos/pabx.jpg);" class="h-full bg-cover bg-center bg-fourth/45 bg-blend-multiply hover:scale-[105%] duration-300">
                 </div>
                 <span class="text-white w-full bg-secondary absolute left-0 bottom-0 px-2 py-1 z-50">PABX, IPBX Systems Installation & Service </span>
             </div>
@@ -129,12 +129,12 @@
                 <span class="text-white w-full bg-secondary absolute left-0 bottom-0 px-2 py-1 z-50">Vehicle GPS Tracking Systems Installation & Service </span>
             </div>
             <div data-aos="fade-up" data-aos-duration="1000" class="h-60 relative overflow-hidden">
-                <div style="background-image: url(assets/photos/matv.jpeg);" class="h-full bg-cover bg-center bg-fourth/45 bg-blend-multiply hover:scale-[105%] duration-300">
+                <div style="background-image: url(assets/photos/matv.jpg);" class="h-full bg-cover bg-bottom bg-fourth/45 bg-blend-multiply hover:scale-[105%] duration-300">
                 </div>
                 <span class="text-white w-full bg-secondary absolute left-0 bottom-0 px-2 py-1 z-50">CATV, MATV & IPTV Installation & Service </span>
             </div>
             <div data-aos="fade-up" data-aos-duration="1000" class="h-60 relative overflow-hidden">
-                <div style="background-image: url(assets/photos/pa.jpg);" class="h-full bg-cover bg-center bg-fourth/45 bg-blend-multiply hover:scale-[105%] duration-300">
+                <div style="background-image: url(assets/photos/pa.jpg);" class="h-full bg-cover bg-top bg-fourth/45 bg-blend-multiply hover:scale-[105%] duration-300">
                 </div>
                 <span class="text-white w-full bg-secondary absolute left-0 bottom-0 px-2 py-1 z-50">Public Address (PA) Systems Installation & Service </span>
             </div>

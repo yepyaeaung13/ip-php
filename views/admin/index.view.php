@@ -52,6 +52,7 @@
                                 <option class="" value="gps">Vehicle GPS Systems</option>
                                 <option class="" value="fire-alarm">Fire alarm Systems</option>
                                 <option class="" value="matv">MATV, CATV Systems</option>
+                                <option class="" value="tender">Tender Projects</option>
                             </select>
                         </div>
                         <div class="flex flex-col gap-1">
@@ -113,6 +114,7 @@
                                 <option class="" value="gps">Vehicle GPS Systems</option>
                                 <option class="" value="fire-alarm">Fire alarm Systems</option>
                                 <option class="" value="matv">MATV, CATV Systems</option>
+                                <option class="" value="tender">Tender Projects</option>
                             </select>
                         </div>
                         <div class="flex flex-col gap-1">

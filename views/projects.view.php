@@ -79,44 +79,87 @@
             </div>
 
             <!-- page button  -->
-            <div>
-                <div id="pagination-parent" class="mt-5 font-medium flex gap-5 justify-center">
+            <?php if (!isset($_GET['search'])) : ?>
+                <div>
+                    <div id="pagination-parent" class="mt-5 font-medium flex gap-5 justify-center">
 
-                    <!-- prev button  -->
-                    <button id="prev-btn" class="border border-primary px-2 rounded-md"><a class=" <?= $page == 1 ? "pointer-events-none text-fifth" : "" ?>" href="/project?title=<?= $title ?>&page=<?= $page - 1 ?>">prev</a></button>
+                        <!-- prev button  -->
+                        <button id="prev-btn" class="border border-primary px-2 rounded-md"><a class=" <?= $page == 1 ? "pointer-events-none text-fifth" : "" ?>" href="/project?title=<?= $title ?>&page=<?= $page - 1 ?>">prev</a></button>
 
-                    <ul class="flex gap-1">
-                        <!-- start page  -->
-                        <li class="px-2 rounded-full <?= $page >= 5  ? "block" : "hidden" ?>"><a href="/projects?title=<?= $title ?>&page=1">1</a></li>
+                        <ul class="flex gap-1">
+                            <!-- start page  -->
+                            <li class="px-2 rounded-full <?= $page >= 5  ? "block" : "hidden" ?>"><a href="/projects?title=<?= $title ?>&page=1">1</a></li>
 
-                        <!-- ... page  -->
-                        <li class="px-2 rounded-full <?= $page >= 5  ? "block" : "hidden" ?>">...</li>
+                            <!-- ... page  -->
+                            <li class="px-2 rounded-full <?= $page >= 5  ? "block" : "hidden" ?>">...</li>
 
-                        <!-- calculate pagination number per display -->
-                        <?php $paginationNumber = $total_page < 6 ? $total_page : $page + 3 ?>
+                            <!-- calculate pagination number per display -->
+                            <?php $paginationNumber = $total_page < 6 ? $total_page : $page + 3 ?>
 
-                        <!-- calculate last number per display  -->
-                        <?php $maxNumber = $paginationNumber > $total_page ? $total_page : $paginationNumber ?>
+                            <!-- calculate last number per display  -->
+                            <?php $maxNumber = $paginationNumber > $total_page ? $total_page : $paginationNumber ?>
 
-                        <!-- calculate start number per display -->
-                        <?php $paginationStart = $page >= 5 ? $page - 2 : 1 ?>
+                            <!-- calculate start number per display -->
+                            <?php $paginationStart = $page >= 5 ? $page - 2 : 1 ?>
 
-                        <!-- pagination link  -->
-                        <?php for ($paginationStart; $paginationStart < $maxNumber; $paginationStart++) : ?>
-                            <li class="px-2 rounded-full <?= $page === $paginationStart ? "text-white bg-primary" : "" ?>"><a href="/project?title=<?= $title ?>&page=<?= $paginationStart ?>"><?= $paginationStart ?></a></li>
-                        <?php endfor ?>
+                            <!-- pagination link  -->
+                            <?php for ($paginationStart; $paginationStart < $maxNumber; $paginationStart++) : ?>
+                                <li class="px-2 rounded-full <?= $page === $paginationStart ? "text-white bg-primary" : "" ?>"><a href="/project?title=<?= $title ?>&page=<?= $paginationStart ?>"><?= $paginationStart ?></a></li>
+                            <?php endfor ?>
 
-                        <!-- ... page  -->
-                        <li class="px-2 rounded-full <?= $total_page < 5 || $page == $total_page ? "hidden" : "block" ?>">...</li>
+                            <!-- ... page  -->
+                            <li class="px-2 rounded-full <?= $total_page < 5 || $page == $total_page ? "hidden" : "block" ?>">...</li>
 
-                        <!-- last page  -->
-                        <li class="px-2 rounded-full <?= $page == $total_page ? "text-white bg-primary" : "" ?>"><a href="/project?title=<?= $title ?>&page=<?= $total_page ?>"><?= $total_page ?></a></li>
-                    </ul>
+                            <!-- last page  -->
+                            <li class="px-2 rounded-full <?= $page == $total_page ? "text-white bg-primary" : "" ?>"><a href="/project?title=<?= $title ?>&page=<?= $total_page ?>"><?= $total_page ?></a></li>
+                        </ul>
 
-                    <!-- next button  -->
-                    <button id="next-btn" class="border border-primary px-2 rounded-md"><a class="<?= $page == $total_page || $total_page == 0 ? "pointer-events-none text-fifth" : "" ?>" href="/project?title=<?= $title ?>&page=<?= $page + 1 ?>">next</a></button>
+                        <!-- next button  -->
+                        <button id="next-btn" class="border border-primary px-2 rounded-md"><a class="<?= $page == $total_page || $total_page == 0 ? "pointer-events-none text-fifth" : "" ?>" href="/project?title=<?= $title ?>&page=<?= $page + 1 ?>">next</a></button>
+                    </div>
                 </div>
-            </div>
+            <?php endif ?>
+
+            <?php if (isset($_GET['search'])) : ?>
+                <div>
+                    <div id="pagination-parent" class="mt-5 font-medium flex gap-5 justify-center">
+
+                        <!-- prev button  -->
+                        <button id="prev-btn" class="border border-primary px-2 rounded-md"><a class=" <?= $page == 1 ? "pointer-events-none text-fifth" : "" ?>" href="/project?title=<?= $_GET['search'] ?>&page=<?= $page - 1 ?>">prev</a></button>
+
+                        <ul class="flex gap-1">
+                            <!-- start page  -->
+                            <li class="px-2 rounded-full <?= $page >= 5  ? "block" : "hidden" ?>"><a href="/projects?search=<?= $_GET['search'] ?>&page=1">1</a></li>
+
+                            <!-- ... page  -->
+                            <li class="px-2 rounded-full <?= $page >= 5  ? "block" : "hidden" ?>">...</li>
+
+                            <!-- calculate pagination number per display -->
+                            <?php $paginationNumber = $total_page < 6 ? $total_page : $page + 3 ?>
+
+                            <!-- calculate last number per display  -->
+                            <?php $maxNumber = $paginationNumber > $total_page ? $total_page : $paginationNumber ?>
+
+                            <!-- calculate start number per display -->
+                            <?php $paginationStart = $page >= 5 ? $page - 2 : 1 ?>
+
+                            <!-- pagination link  -->
+                            <?php for ($paginationStart; $paginationStart < $maxNumber; $paginationStart++) : ?>
+                                <li class="px-2 rounded-full <?= $page === $paginationStart ? "text-white bg-primary" : "" ?>"><a href="/project?search=<?= $_GET['search'] ?>&page=<?= $paginationStart ?>"><?= $paginationStart ?></a></li>
+                            <?php endfor ?>
+
+                            <!-- ... page  -->
+                            <li class="px-2 rounded-full <?= $total_page < 5 || $page == $total_page ? "hidden" : "block" ?>">...</li>
+
+                            <!-- last page  -->
+                            <li class="px-2 rounded-full <?= $page == $total_page ? "text-white bg-primary" : "" ?>"><a href="/project?search=<?= $_GET['search'] ?>&page=<?= $total_page ?>"><?= $total_page ?></a></li>
+                        </ul>
+
+                        <!-- next button  -->
+                        <button id="next-btn" class="border border-primary px-2 rounded-md"><a class="<?= $page == $total_page || $total_page == 0 ? "pointer-events-none text-fifth" : "" ?>" href="/project?search=<?= $_GET['search'] ?>&page=<?= $page + 1 ?>">next</a></button>
+                    </div>
+                </div>
+            <?php endif ?>
         </div>
     </div>
 
@@ -154,7 +197,6 @@
                     <li>Stanfort international School</li>
                     <li>MISY School</li>
                     <li>WEBS Collage</li>
-                    <li>Phyo Wai Vinyl</li>
                 </ul>
             </div>
             <!-- Restaurants & Bar -->

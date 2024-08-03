@@ -130,6 +130,7 @@
                         <option class="" value="gps">Vehicle GPS Systems</option>
                         <option class="" value="fire-alarm">Fire alarm Systems</option>
                         <option class="" value="matv">MATV, CATV Systems</option>
+                        <option class="" value="tender">Tender Projects</option>
                         <option class="" value="other">Other</option>
                     </select>
                 </div>
