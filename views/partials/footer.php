@@ -80,6 +80,9 @@
 <!-- jquery -->
 <script src="assets/js/jquery-3.7.1.min.js"></script>
 
+<!-- js sweeper library for image slider -->
+<script src="assets/js/swiper-bundle.min.js"></script>
+
 <!-- my js  -->
 <script src="assets/js/index.js"></script>
 
@@ -87,6 +90,19 @@
 <script src="assets/dist/aos.js"></script>
 <script>
     AOS.init();
+</script>
+
+<script>
+    $(document).ready(() => {
+        document.querySelectorAll('.swiper-container').forEach(function(container) {
+            new Swiper(container, {
+                loop: true,
+                autoplay: {
+                    delay: 5000,
+                },
+            });
+        });
+    })
 </script>
 
 

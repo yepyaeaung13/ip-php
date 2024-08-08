@@ -3,7 +3,7 @@
 
 <?php include base_path("views/partials/adminnav.php") ?>
 
-<section class="relative w-screen h-full md:p-5 px-1 py-5 flex flex-col items-center gap-5">
+<section class="relative w-full h-full md:p-5 px-1 py-5 flex flex-col items-center gap-5">
     <h1 class="text-xl font-serif">My Accounts</h1>
     <ul class="w-full flex md:flex-row md:justify-center flex-col md:gap-10 gap-2 md:border-b border-third rounded-md md:p-5 p-1 text-white">
         <li class="bg-third px-3 py-1 rounded-md">Name : <?= $_SESSION['user']['name'] ?></li>

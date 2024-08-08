@@ -1,22 +1,22 @@
 <nav class="<?= !uris("/") ? "bg-secondary text-white" : "" ?>">
-    <div class="relative w-full py-2 mx-auto grid grid-cols-12">
+    <div class="relative w-full 2xl:px-20 md:px-5 py-2 mx-auto grid grid-cols-12">
 
         <!-- logo  -->
-        <div class="md:col-span-2 col-span-3 flex justify-center font-bold text-xl">
+        <div class="md:col-span-2 col-span-3 font-bold text-xl">
             <a class="" href="/" class="">
-                <img src="/assets/logos/ip-logo.jpg" alt="" class="w-16 rounded-md">
+                <img src="/assets/logos/ip-logo.jpg" alt="" class="w-16 rounded-md mx-2">
             </a>
         </div>
 
         <!-- desktop menu -->
         <ul class="col-span-8 text-lg font-serif hidden md:flex justify-center items-center lg:gap-10 md:gap-5">
-            <li><a class="<?= uris("/") ? "bg-fourth/55 text-white" : "hover:bg-fourth/55 hover:text-white text-gray-300" ?> px-5 py-1 rounded-md duration-300" href="/">Home</a></li>
+            <li><a class="<?= uris("/") ? "bg-fourth/45 text-white" : "hover:bg-fourth/45 hover:text-white text-gray-300" ?> px-5 py-1 rounded-md duration-300" href="/">Home</a></li>
 
-            <li><a class="<?= uris("/service") ? "bg-fourth/55 text-white" : "hover:bg-fourth/55 hover:text-white text-gray-300" ?> px-5 py-1 rounded-md duration-300" href="/service">Services</a></li>
+            <li><a class="<?= uris("/service") ? "bg-fourth/45 text-white" : "hover:bg-fourth/45 hover:text-white text-gray-300" ?> px-5 py-1 rounded-md duration-300" href="/service">Services</a></li>
 
-            <li><a class="<?= uris("/project") ? "bg-fourth/55 text-white" : "hover:bg-fourth/55 hover:text-white text-gray-300" ?> px-5 py-1 rounded-md duration-300" href="/project">Projects</a></li>
+            <li><a class="<?= uris("/project") ? "bg-fourth/45 text-white" : "hover:bg-fourth/45 hover:text-white text-gray-300" ?> px-5 py-1 rounded-md duration-300" href="/project">Projects</a></li>
 
-            <li><a class="<?= uris("/contact") ? "bg-fourth/55 text-white" : "hover:bg-fourth/55 hover:text-white text-gray-300" ?> px-5 py-1 rounded-md duration-300" href="/contact">Contact</a></li>
+            <li><a class="<?= uris("/contact") ? "bg-fourth/45 text-white" : "hover:bg-fourth/45 hover:text-white text-gray-300" ?> px-5 py-1 rounded-md duration-300" href="/contact">Contact</a></li>
         </ul>
 
         <!-- mobile menu  -->
@@ -62,7 +62,7 @@
         </div>
 
         <!-- social icon  -->
-        <div class="col-span-2 hidden md:flex justify-center gap-5 items-center">
+        <div class="col-span-2 hidden md:flex justify-end gap-5 items-center">
             <a href="https://www.facebook.com/intelligencepowercctv" target="_blank">
                 <svg class="size-6" fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                     <path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z" />

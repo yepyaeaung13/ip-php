@@ -38,8 +38,3 @@ if (menuBtn !== null) {
     $("#menubar").slideToggle();
   });
 }
-
-//pagination next button
-// if ($("#next-btn") !== null) {
-//   $("#next-btn").addEventListener("click");
-// }

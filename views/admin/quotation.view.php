@@ -2,7 +2,7 @@
 
 <?php include base_path("views/partials/adminnav.php") ?>
 
-<section class="relative w-screen h-full">
+<section class="relative w-full h-full">
     <div class="w-full mx-auto ">
         <div class="h-[80vh] overflow-y-scroll border rounded-md 2xl:mx-16 md:mx-5 mx-1">
             <table id="table" class="table-auto w-full text-nowrap">

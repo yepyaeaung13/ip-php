@@ -88,7 +88,7 @@
     <div class="w-full mx-auto md:p-5 p-1 py-10 flex gap-5 justify-center">
 
         <!-- google Map  -->
-        <div class="w-full flex flex-col gap-1 items-center border shadow-md 2xl:px-16 md:p-5 px-1 py-5">
+        <div class="w-full flex flex-col gap-1 items-center border shadow-md 2xl:px-20 md:p-5 px-1 py-5">
             <h1 class="text-xl font-bold font-serif flex gap-1">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-primary">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />

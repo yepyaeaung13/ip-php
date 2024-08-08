@@ -9,10 +9,14 @@ if ($_SESSION['user']) {
     $db = new Database($config['database']);
 
     $id = $_GET['id'];
-    $photoName = $_GET['name'];
+    $photoName1 = $_GET['name1'];
+    $photoName2 = $_GET['name2'];
+    $photoName3 = $_GET['name3'];
 
     // delete photo from folder 
-    unlink($photoName);
+    unlink($photoName1);
+    unlink($photoName2);
+    unlink($photoName3);
 
     $db->query('DELETE FROM projects WHERE id=:id', ['id' => $id]);
 

@@ -36,7 +36,7 @@
     <!-- company intro -->
     <section class="bg-secondary text-white">
         <div class="w-full mx-auto p-5 flex flex-col gap-5">
-            <div class="lg:px-10 md:px-5 px-1">
+            <div class="2xl:px-20 lg:px-10 md:px-5 px-1">
                 <div class="flex md:flex-row flex-col justify-between gap-5">
                     <div class="md:w-1/2 w-full flex flex-col md:gap-5 gap-2">
                         <h1 class="text-2xl font-bold font-serif">Intelligence Power Co.,Ltd</h1>
@@ -92,54 +92,54 @@
                 <span class="text-2xl font-serif">Our Services</span>
             </h1>
         </div>
-        <div class="xl:px-10 px-1 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-2 text-sm">
-            <div data-aos="fade-up" data-aos-duration="1000" class="h-60 relative overflow-hidden">
+        <div class="xl:px-20 px-1 grid 2xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-2 text-sm">
+            <div data-aos="fade-up" data-aos-duration="1000" class="2xl:h-72 h-64 relative overflow-hidden">
                 <div style="background-image: url(assets/photos/cctv.jpg);" class="h-full bg-cover bg-no-repeat bg-center bg-fourth/45 bg-blend-multiply hover:scale-[105%] duration-300">
                 </div>
                 <span class="text-white w-full bg-secondary absolute left-0 bottom-0 px-2 py-1 z-50">CCTV Installation & Service</span>
             </div>
-            <div data-aos="fade-up" data-aos-duration="1000" class="h-60 relative overflow-hidden">
+            <div data-aos="fade-up" data-aos-duration="1000" class="2xl:h-72 h-64 relative overflow-hidden">
                 <div style="background-image: url(assets/photos/solar.jpg);" class="h-full bg-cover bg-center bg-fourth/45 bg-blend-multiply hover:scale-[105%] duration-300">
                 </div>
                 <span class="text-white w-full bg-secondary absolute left-0 bottom-0 px-2 py-1 z-50">Solar Systems Installation & Service</span>
             </div>
-            <div data-aos="fade-up" data-aos-duration="1000" class="h-60 relative overflow-hidden">
+            <div data-aos="fade-up" data-aos-duration="1000" class="2xl:h-72 h-64 relative overflow-hidden">
                 <div style="background-image: url(assets/photos/fire-alarm.jpg);" class="h-full bg-cover bg-center bg-fourth/45 bg-blend-multiply hover:scale-[105%] duration-300">
                 </div>
                 <span class="text-white w-full bg-secondary absolute left-0 bottom-0 px-2 py-1 z-50">Fire Alarm Systems</span>
             </div>
-            <div data-aos="fade-up" data-aos-duration="1000" class="h-60 relative overflow-hidden">
+            <div data-aos="fade-up" data-aos-duration="1000" class="2xl:h-72 h-64 relative overflow-hidden">
                 <div style="background-image: url(assets/photos/card-access.jpg);" class="h-full bg-center bg-no-repeat bg-cover bg-fourth/45 bg-blend-multiply hover:scale-[105%] duration-300">
                 </div>
                 <span class="text-white w-full bg-secondary absolute left-0 bottom-0 px-2 py-1 z-50">Attendance Fingerprint & Card Access Systems</span>
             </div>
-            <div data-aos="fade-up" data-aos-duration="1000" class="h-60 relative overflow-hidden">
+            <div data-aos="fade-up" data-aos-duration="1000" class="2xl:h-72 h-64 relative overflow-hidden">
                 <div style="background-image: url(assets/photos/wifi.jpg);" class="h-full bg-cover bg-center bg-fourth/45 bg-blend-multiply hover:scale-[105%] duration-300">
                 </div>
                 <span class="text-white w-full bg-secondary absolute left-0 bottom-0 px-2 py-1 z-50">WIFI & Network Solutions</span>
             </div>
-            <div data-aos="fade-up" data-aos-duration="1000" class="h-60 relative overflow-hidden">
+            <div data-aos="fade-up" data-aos-duration="1000" class="2xl:h-72 h-64 relative overflow-hidden">
                 <div style="background-image: url(assets/photos/pabx.jpg);" class="h-full bg-cover bg-center bg-fourth/45 bg-blend-multiply hover:scale-[105%] duration-300">
                 </div>
                 <span class="text-white w-full bg-secondary absolute left-0 bottom-0 px-2 py-1 z-50">PABX, IPBX Systems Installation & Service </span>
             </div>
-            <div data-aos="fade-up" data-aos-duration="1000" class="h-60 relative overflow-hidden">
+            <div data-aos="fade-up" data-aos-duration="1000" class="2xl:h-72 h-64 relative overflow-hidden">
                 <div style="background-image: url(assets/photos/gps.jpg);" class="h-full bg-cover bg-center bg-fourth/45 bg-blend-multiply hover:scale-[105%] duration-300">
                 </div>
                 <span class="text-white w-full bg-secondary absolute left-0 bottom-0 px-2 py-1 z-50">Vehicle GPS Tracking Systems Installation & Service </span>
             </div>
-            <div data-aos="fade-up" data-aos-duration="1000" class="h-60 relative overflow-hidden">
+            <div data-aos="fade-up" data-aos-duration="1000" class="2xl:h-72 h-64 relative overflow-hidden">
                 <div style="background-image: url(assets/photos/matv.jpg);" class="h-full bg-cover bg-bottom bg-fourth/45 bg-blend-multiply hover:scale-[105%] duration-300">
                 </div>
                 <span class="text-white w-full bg-secondary absolute left-0 bottom-0 px-2 py-1 z-50">CATV, MATV & IPTV Installation & Service </span>
             </div>
-            <div data-aos="fade-up" data-aos-duration="1000" class="h-60 relative overflow-hidden">
+            <div data-aos="fade-up" data-aos-duration="1000" class="2xl:h-72 h-64 relative overflow-hidden">
                 <div style="background-image: url(assets/photos/pa.jpg);" class="h-full bg-cover bg-top bg-fourth/45 bg-blend-multiply hover:scale-[105%] duration-300">
                 </div>
                 <span class="text-white w-full bg-secondary absolute left-0 bottom-0 px-2 py-1 z-50">Public Address (PA) Systems Installation & Service </span>
             </div>
-            <div data-aos="fade-up" data-aos-duration="1000" class="h-60 relative overflow-hidden">
-                <div style="background-image: url(assets/photos/tender.jpeg);" class="h-full bg-cover bg-center bg-fourth/45 bg-blend-multiply hover:scale-[105%] duration-300">
+            <div data-aos="fade-up" data-aos-duration="1000" class="2xl:h-72 h-64 relative overflow-hidden">
+                <div style="background-image: url(assets/photos/tender.jpg);" class="h-full bg-cover bg-center bg-fourth/45 bg-blend-multiply hover:scale-[105%] duration-300">
                 </div>
                 <span class="text-white w-full bg-secondary absolute left-0 bottom-0 px-2 py-1 z-50">Tender Projects Service </span>
             </div>
@@ -179,7 +179,7 @@
     </section>
 
     <!-- some recent projects  -->
-    <section class="lg:px-20 md:px-5 px-2 w-full mx-auto py-5 flex flex-col gap-5">
+    <section class="2xl:px-40 lg:px-20 md:px-5 px-2 w-full mx-auto py-5 flex flex-col gap-5">
         <div class="flex justify-center">
             <h1 class="text-2xl flex items-center gap-1 font-serif">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -188,10 +188,22 @@
                 <span>Recent Projects</span>
             </h1>
         </div>
-        <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-5 md:gap-2 px-1">
+        <!-- laptop and mobile layout -->
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 2xl:gap-20 lg:gap-5 md:gap-2 px-1">
             <?php foreach ($projects as $project) : ?>
-                <div data-aos="flip-right" data-aos-duration="1000" class="shadow-md flex flex-col gap-2 p-2 border rounded-md hover:-translate-y-2 duration-300">
-                    <img src="<?= $project['photo'] ?>" alt="" class="h-52 rounded-md object-center object-cover">
+                <div class="swiper-container overflow-hidden shadow-md flex flex-col gap-2 p-2 border rounded-md hover:-translate-y-2 duration-300">
+                    <div class="w-full swiper-wrapper">
+                        <div class="w-full swiper-slide">
+                            <img loading="lazy" src="<?= $project['photo1'] ?>" alt="" class=" w-full h-52 rounded-md object-center object-cover border duration-200">
+                        </div>
+                        <div class="swiper-slide">
+                            <img loading="lazy" src="<?= $project['photo2'] ?>" alt="" class=" w-full h-52 rounded-md object-center object-cover border duration-200">
+                        </div>
+                        <div class="swiper-slide ">
+                            <img loading="lazy" src="<?= $project['photo3'] ?>" alt="" class="w-full h-52 rounded-md object-center object-cover border duration-200">
+                        </div>
+                    </div>
+
                     <p class="flex justify-center items-center gap-1">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M11.42 15.17 17.25 21A2.652 2.652 0 0 0 21 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 1 1-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 0 0 4.486-6.336l-3.276 3.277a3.004 3.004 0 0 1-2.25-2.25l3.276-3.276a4.5 4.5 0 0 0-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437 1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008Z" />
@@ -222,8 +234,8 @@
                     </div>
                 </div>
             <?php endforeach ?>
-
         </div>
+
         <div class="flex justify-center">
             <a href="/project" class="group flex items-center gap-1 bg-primary text-white px-5 py-1 rounded-md border border-primary duration-300">
                 <span>View All</span>

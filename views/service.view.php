@@ -17,7 +17,7 @@
     <div class="bg-third text-white">
         <div class="w-full mx-auto flex flex-col gap-5 justify-center items-center md:py-5 py-5">
             <h1 class="text-2xl font-serif font-bold">Our Services</h1>
-            <div class="flex flex-wrap ps-10 md:gap-10 gap-5 md:justify-center items-center">
+            <div class="flex flex-wrap ps-10 2xl:gap-20 md:gap-10 gap-5 md:justify-center items-center">
                 <p class="list-disc list-item
                 414578">
                     Feasible Survey and Estimation
@@ -35,7 +35,7 @@
     </div>
 
     <!-- services -->
-    <div class="2xl:px-16 w-full mx-auto md:p-5 p-1 rounded-md grid md:grid-cols-2 grid-cols-1 gap-2">
+    <div class="2xl:px-20 w-full mx-auto md:p-5 p-1 rounded-md grid md:grid-cols-2 grid-cols-1 gap-2">
         <!-- CCTV  -->
         <div class="h-56 flex flex-col gap-2 rounded-md justify-end md:p-5 p-2 bg-cover bg-center bg-third text-white bg-blend-multiply" style="background-image: url(assets/photos/cctv.jpg)">
             <h1 class="text-xl font-serif font-bold">CCTV Installation & Service</h1>
@@ -109,7 +109,7 @@
         </div>
 
         <!-- tender projects -->
-        <div class="h-56 flex flex-col gap-2 rounded-md justify-end md:p-5 p-2 bg-cover bg-center bg-third text-white bg-blend-multiply" style="background-image: url(assets/photos/tender.jpeg)">
+        <div class="h-56 flex flex-col gap-2 rounded-md justify-end md:p-5 p-2 bg-cover bg-center bg-third text-white bg-blend-multiply" style="background-image: url(assets/photos/tender.jpg)">
             <h1 class="text-xl font-serif font-bold">Tender Projects Service</h1>
             <p class="leading-6 line-clamp-5">
                 At Intelligence Power Co., Ltd. (IP), we specialize in delivering comprehensive solutions for tender projects, ensuring the highest standards of quality and efficiency. Our expertise and dedication make us the ideal partner for executing complex projects across various sectors.

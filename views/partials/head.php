@@ -7,7 +7,8 @@
     <title>Intelligence Power</title>
     <link rel="icon" type="image/svg+xml" href="public/assets/ip.svg" />
     <link rel="stylesheet" href="../assets/css/output.css">
+    <link rel="stylesheet" href="../assets/css/swiper.min.css">
     <link rel="stylesheet" href="assets/dist/aos.css" />
 </head>
 
-<body class="text-sm <?= !uris("/") ? "flex flex-col h-[100vh]" : "" ?>">
+<body class="text-sm max-w-[1920px] mx-auto <?= !uris("/") ? "flex flex-col h-[100vh]" : "" ?>">
