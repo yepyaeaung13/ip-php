@@ -11,4 +11,4 @@
     <link rel="stylesheet" href="assets/dist/aos.css" />
 </head>
 
-<body class="text-sm max-w-[1920px] mx-auto <?= !uris("/") ? "flex flex-col h-[100vh]" : "" ?>">
+<body class="text-sm max-w-[1920px] mx-auto relative <?= !uris("/") ? "flex flex-col h-[100vh]" : "" ?>">

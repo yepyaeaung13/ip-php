@@ -177,63 +177,63 @@
 
     <!-- our valuable customers  -->
     <div class="bg-third text-white">
-        <div class="2xl:px-16 md:px-5 lg:w-5/6 w-full py-10 mx-auto flex flex-col gap-2">
+        <div class="2xl:px-16 md:px-5 lg:w-5/6 w-full py-10 mx-auto flex flex-col gap-5">
             <div class="flex justify-center">
-                <h1 class="text-xl font-serif font-bold mb-5">Our Valuable Customers</h1>
+                <h1 class="text-white text-xl font-serif font-bold mb-5">Our Valuable Customers</h1>
             </div>
             <!-- hosiptals  -->
-            <div class="bg-secondary p-2 rounded-md flex flex-col gap-1">
+            <div class="bg-[#88593d]/35 shadow-lg px-2 py-5 rounded-md flex flex-col gap-1">
                 <h1 class="font-serif text-lg font-bold">Hospitals</h1>
                 <ul class="w-full grid md:grid-cols-5 grid-cols-2 font-medium gap-2 px-3 justify-center items-center font-serif">
-                    <li>Asia Royal Hospital</li>
-                    <li>ARYU Hospital</li>
+                    <li class="">Asia Royal Hospital</li>
+                    <li class="">ARYU Hospital</li>
                 </ul>
             </div>
             <!-- hotels  -->
-            <div class="bg-secondary p-2 rounded-md flex flex-col gap-1">
+            <div class="bg-[#88593d]/35 shadow-lg px-2 py-5 rounded-md flex flex-col gap-1">
                 <h1 class="font-serif text-lg font-bold">Hotels</h1>
                 <ul class="w-full grid md:grid-cols-5 grid-cols-2 font-medium gap-2 px-3 justify-center items-center font-serif">
-                    <li>Royal Golden View Hotel</li>
-                    <li>Kyaik Hto Hotel</li>
-                    <li>Academy Hotel</li>
-                    <li>Top Hotel</li>
-                    <li>Sat Sun Hotel</li>
-                    <li>Aung Zaya Hotel</li>
-                    <li>Minglar Garden Resort</li>
+                    <li class="">Royal Golden View Hotel</li>
+                    <li class="">Kyaik Hto Hotel</li>
+                    <li class="">Academy Hotel</li>
+                    <li class="">Top Hotel</li>
+                    <li class="">Sat Sun Hotel</li>
+                    <li class="">Aung Zaya Hotel</li>
+                    <li class="">Minglar Garden Resort</li>
                 </ul>
             </div>
             <!-- schools  -->
-            <div class="bg-secondary p-2 rounded-md flex flex-col gap-1">
+            <div class="bg-[#88593d]/35 shadow-lg px-2 py-5 rounded-md flex flex-col gap-1">
                 <h1 class="font-serif text-lg font-bold">Schools</h1>
                 <ul class="w-full grid md:grid-cols-5 grid-cols-2 font-medium gap-2 px-3 justify-center items-center font-serif">
-                    <li>Stanfort international School</li>
-                    <li>MISY School</li>
-                    <li>WEBS Collage</li>
+                    <li class="">Stanfort international School</li>
+                    <li class="">MISY School</li>
+                    <li class="">WEBS Collage</li>
                 </ul>
             </div>
             <!-- Restaurants & Bar -->
-            <div class="bg-secondary p-2 rounded-md flex flex-col gap-1">
+            <div class="bg-[#88593d]/35 shadow-lg px-2 py-5 rounded-md flex flex-col gap-1">
                 <h1 class="font-serif text-lg font-bold">Restaurants & Bar</h1>
                 <ul class="w-full grid md:grid-cols-5 grid-cols-2 font-medium gap-2 px-3 justify-center items-center font-serif">
-                    <li>Chinese-47</li>
-                    <li>Thai-47</li>
-                    <li>Sushi Tai</li>
-                    <li>The Myst Bar</li>
+                    <li class="">Chinese-47</li>
+                    <li class="">Thai-47</li>
+                    <li class="">Sushi Tai</li>
+                    <li class="">The Myst Bar</li>
                 </ul>
             </div>
             <!-- factory  -->
-            <div class="bg-secondary p-2 rounded-md flex flex-col gap-1">
+            <div class="bg-[#88593d]/35 shadow-lg px-2 py-5 rounded-md flex flex-col gap-1">
                 <h1 class="font-serif text-lg font-bold">Factory & Corporate</h1>
                 <ul class="w-full grid md:grid-cols-5 grid-cols-2 font-medium gap-2 px-3 justify-center items-center font-serif">
-                    <li>MAEX</li>
-                    <li>Pann Wut Hmone</li>
-                    <li>Atrium Condo</li>
-                    <li>Taik 2 Lone</li>
-                    <li>Century Beverage</li>
-                    <li>ESI Food</li>
-                    <li>Sun Flower</li>
-                    <li>Hledan Center</li>
-                    <li>Phyo Wai Vinyl</li>
+                    <li class="">MAEX</li>
+                    <li class="">Pann Wut Hmone</li>
+                    <li class="">Atrium Condo</li>
+                    <li class="">Taik 2 Lone</li>
+                    <li class="">Century Beverage</li>
+                    <li class="">ESI Food</li>
+                    <li class="">Sun Flower</li>
+                    <li class="">Hledan Center</li>
+                    <li class="">Phyo Wai Vinyl</li>
                 </ul>
             </div>
         </div>

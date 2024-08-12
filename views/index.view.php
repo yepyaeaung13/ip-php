@@ -13,8 +13,10 @@
     <!-- hero para  -->
     <section class="row-span-9 flex items-center justify-center">
         <div class="md:w-96 w-80 flex flex-col items-center gap-5">
-            <h1 class="text-xl font-bold text-center">Protect What Matters Most with Our Comprehensive Security Solutions</h1>
-            <p class="text-center font-medium">Providing top-notch security services including CCTV, Door Card Access, and more.</p>
+            <div class="flex justify-center items-center flex-col gap-5">
+                <img src="/assets/logos/ip-logo.jpg" alt="" class="w-28 rounded-md mx-2">
+                <h1 class="text-xl font-serif font-bold">Intelligence Power Co.,Ltd</h1>
+            </div>
             <div class="flex gap-5">
                 <button id="moreBtn" class="hover:bg-transparent duration-300 border border-primary bg-primary px-3 py-1 rounded-md">Learn More</button>
                 <a href="/contact#quotationForm" class="hover:bg-transparent duration-300 border border-primary bg-primary px-3 py-1 rounded-md">Get a Quote</a>
@@ -126,7 +128,7 @@
             <div data-aos="fade-up" data-aos-duration="1000" class="2xl:h-72 h-64 relative overflow-hidden">
                 <div style="background-image: url(assets/photos/gps.jpg);" class="h-full bg-cover bg-center bg-fourth/45 bg-blend-multiply hover:scale-[105%] duration-300">
                 </div>
-                <span class="text-white w-full bg-secondary absolute left-0 bottom-0 px-2 py-1 z-50">Vehicle GPS Tracking Systems Installation & Service </span>
+                <span class="text-white w-full bg-secondary absolute left-0 bottom-0 px-2 py-1 z-50">Vehicle GPS Tracking Systems</span>
             </div>
             <div data-aos="fade-up" data-aos-duration="1000" class="2xl:h-72 h-64 relative overflow-hidden">
                 <div style="background-image: url(assets/photos/matv.jpg);" class="h-full bg-cover bg-bottom bg-fourth/45 bg-blend-multiply hover:scale-[105%] duration-300">
@@ -142,6 +144,16 @@
                 <div style="background-image: url(assets/photos/tender.jpg);" class="h-full bg-cover bg-center bg-fourth/45 bg-blend-multiply hover:scale-[105%] duration-300">
                 </div>
                 <span class="text-white w-full bg-secondary absolute left-0 bottom-0 px-2 py-1 z-50">Tender Projects Service </span>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" class="2xl:h-72 h-64 relative overflow-hidden">
+                <div style="background-image: url(assets/photos/electrical.jpg);" class="h-full bg-cover bg-center bg-fourth/45 bg-blend-multiply hover:scale-[105%] duration-300">
+                </div>
+                <span class="text-white w-full bg-secondary absolute left-0 bottom-0 px-2 py-1 z-50">Air Conditioning & Electrical Wiring Services</span>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" class="2xl:h-72 h-64 relative overflow-hidden">
+                <div style="background-image: url(assets/photos/ipnet.jpg);" class="h-full bg-cover bg-center bg-fourth/45 bg-blend-multiply hover:scale-[105%] duration-300">
+                </div>
+                <span class="text-white w-full bg-secondary absolute left-0 bottom-0 px-2 py-1 z-50">FTTH ISP Service </span>
             </div>
         </div>
     </section>

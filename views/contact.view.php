@@ -23,7 +23,7 @@
                     </button>
                     <div>
                         <p class="flex flex-col items-center">Viber :
-                            <span>09-409-709-911, 44, 55</span>
+                            <span>09-409-709-911</span>
                         </p>
                     </div>
                 </div>
