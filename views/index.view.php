@@ -67,11 +67,11 @@
             <!-- work done overview  -->
             <div class="text-sm rounded-md h-40 flex items-center md:justify-center justify-evenly flex-wrap md:gap-20 gap-5">
                 <div class="flex flex-col justify-center items-center">
-                    <h2 class="text-2xl font-bold">7 <span class="text-primary">+</span> </h2>
+                    <h2 class="text-2xl font-bold">8 <span class="text-primary">+</span> </h2>
                     <span class="">Years Experience</span>
                 </div>
                 <div class="flex flex-col items-center">
-                    <h2 class="text-2xl font-bold">1,000 <span class="text-primary">+</span> </h2>
+                    <h2 class="text-2xl font-bold">2,000 <span class="text-primary">+</span> </h2>
                     <span class="">Projects Done</span>
                 </div>
                 <div class="flex flex-col items-center">
@@ -79,7 +79,7 @@
                     <span class="">Team Advisors</span>
                 </div>
                 <div class="flex flex-col items-center">
-                    <h2 class="text-2xl font-bold">200 <span class="text-primary">+</span> </h2>
+                    <h2 class="text-2xl font-bold">800 <span class="text-primary">+</span> </h2>
                     <span class="">Active Clients</span>
                 </div>
             </div>
