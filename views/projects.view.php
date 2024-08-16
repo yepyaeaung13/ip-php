@@ -14,7 +14,7 @@
                 <h1 class="text-2xl font-serif font-bold">Our Projects</h1>
             </div>
 
-            <div class="lg::px-10 md:px-5 flex flex-wrap-reverse gap-5 lg:justify-between justify-center items-center">
+            <div class="lg::px-10 md:px-5 flex md:flex-nowrap flex-wrap-reverse gap-5 lg:justify-between justify-center items-center">
 
                 <!-- categories  -->
                 <ul class="font-serif text-fifth text-nowrap flex flex-wrap gap-1 py-1">
@@ -183,15 +183,19 @@
             </div>
             <!-- hosiptals  -->
             <div class="bg-[#88593d]/35 shadow-lg px-2 py-5 rounded-md flex flex-col gap-1">
-                <h1 class="font-serif text-lg font-bold">Hospitals</h1>
+                <h1 class="font-serif text-lg font-bold">Hospital & Clinic</h1>
                 <ul class="w-full grid md:grid-cols-5 grid-cols-2 font-medium gap-2 px-3 justify-center items-center font-serif">
-                    <li class="">Asia Royal Hospital</li>
-                    <li class="">ARYU Hospital</li>
+                    <li class="">Asia Royal</li>
+                    <li class="">ARYU</li>
+                    <li class="">White & Green</li>
+                    <li class="">Swan Yee Moe</li>
+                    <li class="">Asia Royal Dental</li>
+                    <li class="">Shwe La Yaung</li>
                 </ul>
             </div>
             <!-- hotels  -->
             <div class="bg-[#88593d]/35 shadow-lg px-2 py-5 rounded-md flex flex-col gap-1">
-                <h1 class="font-serif text-lg font-bold">Hotels</h1>
+                <h1 class="font-serif text-lg font-bold">Hotel , Guest House & Resort</h1>
                 <ul class="w-full grid md:grid-cols-5 grid-cols-2 font-medium gap-2 px-3 justify-center items-center font-serif">
                     <li class="">Royal Golden View Hotel</li>
                     <li class="">Kyaik Hto Hotel</li>
@@ -200,6 +204,22 @@
                     <li class="">Sat Sun Hotel</li>
                     <li class="">Aung Zaya Hotel</li>
                     <li class="">Minglar Garden Resort</li>
+                    <li class="">Thiri Aung Resort</li>
+                    <li class="">Araindamar Hotel</li>
+                    <li class="">GVI</li>
+                    <li class="">Green Paradise Hotel</li>
+                    <li class="">Mibamitta</li>
+                    <li class="">Gandamar Hotel</li>
+                    <li class="">Rainbow Hotel</li>
+                    <li class="">San Yaeik Nyin Hotel</li>
+                    <li class="">Golden Bliss Hotel</li>
+                    <li class="">Royal Boss Hotel</li>
+                    <li class="">Ayarwady Hotel</li>
+                    <li class="">Wood Land Hotel</li>
+                    <li class="">Chindwin Queen Hotel</li>
+                    <li class="">Shwe Sin House</li>
+                    <li class="">Nuge War Hotel</li>
+                    <li class="">Shwe Sin Guest House</li>
                 </ul>
             </div>
             <!-- schools  -->
@@ -209,6 +229,11 @@
                     <li class="">Stanfort international School</li>
                     <li class="">MISY School</li>
                     <li class="">WEBS Collage</li>
+                    <li class="">YIU Youth</li>
+                    <li class="">YIU Youth</li>
+                    <li class="">Chindwinge Collage</li>
+                    <li class="">Adaman Eight Japanese Agency</li>
+                    <li class="">No.3 School</li>
                 </ul>
             </div>
             <!-- Restaurants & Bar -->
@@ -216,9 +241,17 @@
                 <h1 class="font-serif text-lg font-bold">Restaurants & Bar</h1>
                 <ul class="w-full grid md:grid-cols-5 grid-cols-2 font-medium gap-2 px-3 justify-center items-center font-serif">
                     <li class="">Chinese-47</li>
-                    <li class="">Thai-47</li>
-                    <li class="">Sushi Tai</li>
+                    <li class="">Thai-47 (All Branch)</li>
+                    <li class="">Sushi Tei</li>
                     <li class="">The Myst Bar</li>
+                    <li class="">Pinlon House</li>
+                    <li class="">Pinlon Loudge</li>
+                    <li class="">Chapter 8</li>
+                    <li class="">TORA</li>
+                    <li class="">Glorial Jean's</li>
+                    <li class="">Little Bee</li>
+                    <li class="">La Yaeik</li>
+                    <li class="">Dagon Kyaw</li>
                 </ul>
             </div>
             <!-- factory  -->
@@ -226,14 +259,40 @@
                 <h1 class="font-serif text-lg font-bold">Factory & Corporate</h1>
                 <ul class="w-full grid md:grid-cols-5 grid-cols-2 font-medium gap-2 px-3 justify-center items-center font-serif">
                     <li class="">MAEX</li>
+                    <li class="">ESI</li>
                     <li class="">Pann Wut Hmone</li>
+                    <li class="">Sun Flower F&B</li>
                     <li class="">Atrium Condo</li>
-                    <li class="">Taik 2 Lone</li>
-                    <li class="">Century Beverage</li>
-                    <li class="">ESI Food</li>
-                    <li class="">Sun Flower</li>
                     <li class="">Hledan Center</li>
+                    <li class="">Taik 2 Lone</li>
                     <li class="">Phyo Wai Vinyl</li>
+                    <li class="">Century Beverage</li>
+                    <li class="">Central Manufacture</li>
+                    <li class="">Daw Win Germent</li>
+                    <li class="">Shwe Myanmar</li>
+                    <li class="">Lucky Bag</li>
+                    <li class="">United Product</li>
+                    <li class="">Green Power Myanmar</li>
+                    <li class="">Tun Tauk</li>
+                    <li class="">Toe Nayar</li>
+                    <li class="">Aung Aung</li>
+                    <li class="">Tapyae Mon</li>
+                    <li class="">Shwe Du Wunn</li>
+                    <li class="">Aung Yadanar Thikdi</li>
+                    <li class="">Ko Khaing Soe ( Pyarpon )</li>
+                    <li class="">Htun Patrol</li>
+                    <li class="">Tayaw Hinthata</li>
+                    <li class="">Goden Dragon</li>
+                    <li class="">Eucyptus</li>
+                    <li class="">Ri & Co</li>
+                    <li class="">Fast Corner</li>
+                    <li class="">Win Gold Shop</li>
+                    <li class="">Win Car</li>
+                    <li class="">Nay Zar Lwin Tea Shop</li>
+                    <li class="">Kwee La Min</li>
+                    <li class="">Pon Nya Car Work Shop</li>
+                    <li class="">Armini Exchange</li>
+                    <li class="">Avandage Generator</li>
                 </ul>
             </div>
         </div>
