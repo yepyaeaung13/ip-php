@@ -19,8 +19,8 @@ $categories = [
     ['name' => "MATV & CATV", "value" => "matv"],
     ['name' => "GPS", "value" => "gps"],
     ['name' => "Tender Projects", "value" => "tender"],
-    ['name' => "Air Con & Electrical Wiring", "value" => "aircon-electrical"],
     ['name' => "ISP", "value" => "isp"],
+    ['name' => "Air Con & Electrical Wiring", "value" => "aircon-electrical"],
 ];
 
 $projects_per_page = 6;

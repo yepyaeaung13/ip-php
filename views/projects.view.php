@@ -295,6 +295,15 @@
                     <li class="">Avandage Generator</li>
                 </ul>
             </div>
+            <!-- construction  -->
+            <div class="bg-[#88593d]/35 shadow-lg px-2 py-5 rounded-md flex flex-col gap-1">
+                <h1 class="font-serif text-lg font-bold">Construction & Decoration</h1>
+                <ul class="w-full grid md:grid-cols-5 grid-cols-2 font-medium gap-2 px-3 justify-center items-center font-serif">
+                    <li class="">Naing Group</li>
+                    <li class="">Yadanar Myaing</li>
+                    <li class="">Decor Space</li>
+                </ul>
+            </div>
         </div>
     </div>
 </section>

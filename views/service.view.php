@@ -141,49 +141,52 @@
             </div>
             <div class="grid md:grid-cols-4 grid-cols-2 items-center gap-5 justify-center">
                 <a href="" class="flex justify-center">
-                    <img src="assets/logos/dahua.png" alt="" class="w-32 h-10 bg-white px-2 py-1 object-cover object-center">
+                    <img src="assets/logos/dahua.png" alt="" class="w-32 h-10 bg-white px-2 py-1 object-center">
                 </a>
                 <a href="" class="flex justify-center">
-                    <img src="assets/logos/hikvision.svg" alt="" class="w-32 h-10 bg-white px-2 py-1">
+                    <img src="assets/logos/hikvision1.jpg" alt="" class="w-32 h-10 bg-white px-2 py-1">
                 </a>
                 <a href="" class="flex justify-center">
-                    <img src="assets/logos/growatt.png" alt="" class="w-32 h-10 bg-white px-2 py-1 object-cover object-center">
+                    <img src="assets/logos/growatt.png" alt="" class="w-32 h-10 bg-white px-2 py-1 object-center">
                 </a>
                 <a href="" class="flex justify-center">
                     <img src="assets/logos/ruijie.png" alt="" class="w-32 h-10 bg-white px-2 py-1 object-cover object-center">
                 </a>
                 <a href="" class="flex justify-center">
-                    <img src="assets/logos/mikrotik.png" alt="" class="w-32 h-10 bg-white px-2 py-1 object-cover object-center">
+                    <img src="assets/logos/mikrotik.png" alt="" class="w-32 h-10 bg-white px-2 py-1 object-center">
                 </a>
                 <a href="" class="flex justify-center">
-                    <img src="assets/logos/tracksolid.png" alt="" class="w-32 h-10 bg-white px-2 py-1 object-cover object-center">
+                    <img src="assets/logos/tracksolid.png" alt="" class="w-32 h-10 bg-white px-2 py-1 object-center">
                 </a>
                 <a href="" class="flex justify-center">
-                    <img src="assets/logos/zkt.png" alt="" class="w-32 h-10 bg-white px-2 py-1 object-cover object-center">
+                    <img src="assets/logos/zkt.svg" alt="" class="w-32 h-10 bg-white px-2 py-1 object-cover object-center">
                 </a>
                 <a href="" class="flex justify-center">
-                    <img src="assets/logos/itc.jpg" alt="" class="w-32 h-10 bg-white px-2 object-center">
+                    <img src="assets/logos/itc.png" alt="" class="w-32 h-10 bg-white px-2 object-center">
                 </a>
                 <a href="" class="flex justify-center">
-                    <img src="assets/logos/link.png" alt="" class="w-32 h-10 bg-white px-2 object-cover object-center">
+                    <img src="assets/logos/link.png" alt="" class="w-32 h-10 bg-white px-2 object-center">
                 </a>
                 <a href="" class="flex justify-center">
-                    <img src="assets/logos/panasonic.png" alt="" class="w-32 h-10 bg-white px-2 object-cover object-center">
+                    <img src="assets/logos/panasonic.webp" alt="" class="w-32 h-10 bg-white px-2 object-cover object-center">
                 </a>
                 <a href="" class="flex justify-center">
-                    <img src="assets/logos/yeaster.png" alt="" class="w-32 h-10 bg-white px-2 object-cover object-center">
+                    <img src="assets/logos/yeaster.png" alt="" class="w-32 h-10 bg-white px-2 object-center">
                 </a>
                 <a href="" class="flex justify-center">
                     <img src="assets/logos/asenware.png" alt="" class="w-32 h-10 bg-white px-2 object-cover object-center">
                 </a>
                 <a href="" class="flex justify-center">
-                    <img src="assets/logos/unv.png" alt="" class="w-32 h-10 bg-white px-2 object-cover object-center">
+                    <img src="assets/logos/unv.png" alt="" class="w-32 h-10 bg-white px-2 object-center">
                 </a>
                 <a href="" class="flex justify-center">
-                    <img src="assets/logos/tp-link.png" alt="" class="w-32 h-10 bg-white px-2 py-1 object-cover object-center">
+                    <img src="assets/logos/tp-link.png" alt="" class="w-32 h-10 bg-white px-2 py-1 object-center">
                 </a>
                 <a href="" class="flex justify-center">
-                    <img src="assets/logos/ubiquiti.png" alt="" class="w-32 h-10 bg-white px-2 pu-1 object-cover object-center">
+                    <img src="assets/logos/ubiquiti.png" alt="" class="w-32 h-10 bg-white px-2 pu-1 object-center">
+                </a>
+                <a href="" class="flex justify-center">
+                    <img src="assets/logos/aisp.jpg" alt="" class="w-32 h-10 bg-white px-2 pu-1 object-center">
                 </a>
             </div>
         </div>
