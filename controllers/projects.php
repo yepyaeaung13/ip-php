@@ -23,7 +23,7 @@ $categories = [
     ['name' => "Air Con & Electrical Wiring", "value" => "aircon-electrical"],
 ];
 
-$projects_per_page = 6;
+$projects_per_page = 4;
 
 $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
 

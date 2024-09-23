@@ -40,7 +40,7 @@
             </div> -->
 
             <!-- card  -->
-            <div class="grid md:grid-cols-3 grid-cols-1 2xl:gap-20 gap-2">
+            <div class="grid md:grid-cols-2 grid-cols-1 md:gap-5 gap-2">
                 <div class="<?= $total_page == 0 ? "flex" : "hidden" ?> justify-center items-center text-2xl col-span-3 h-48">
                     <p> No Projects!</p>
                 </div>
@@ -48,13 +48,13 @@
                     <div class="swiper-container overflow-hidden shadow-md flex flex-col gap-2 p-2 border rounded-md hover:-translate-y-2 duration-300">
                         <div class="w-full swiper-wrapper">
                             <div class="w-full swiper-slide">
-                                <img loading="lazy" src="<?= $project['photo1'] ?>" alt="" class=" w-full h-52 rounded-md object-center object-cover border duration-200">
+                                <img loading="lazy" src="<?= $project['photo1'] ?>" alt="" class=" w-full h-80 rounded-md object-center object-cover border duration-200">
                             </div>
                             <div class="swiper-slide">
-                                <img loading="lazy" src="<?= $project['photo2'] ?>" alt="" class=" w-full h-52 rounded-md object-center object-cover border duration-200">
+                                <img loading="lazy" src="<?= $project['photo2'] ?>" alt="" class=" w-full h-80 rounded-md object-center object-cover border duration-200">
                             </div>
                             <div class="swiper-slide ">
-                                <img loading="lazy" src="<?= $project['photo3'] ?>" alt="" class="w-full h-52 rounded-md object-center object-cover border duration-200">
+                                <img loading="lazy" src="<?= $project['photo3'] ?>" alt="" class="w-full h-80 rounded-md object-center object-cover border duration-200">
                             </div>
                         </div>
 
@@ -68,19 +68,13 @@
                             <span class="px-2 text-xs <?= isset($_SESSION['user']) ? "block" : "hidden" ?>">Project Id - <?= $project['id'] ?></span>
                             <input type="month" value="<?= $project['date'] ?>" class="px-2 text-xs bg-white" disabled>
                         </div>
-                        <div class="flex flex-wrap gap-5">
-                            <h1 class="font-bold flex gap-1 items-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Z" />
-                                </svg>
-
+                        <div class="flex flex-wrap gap-10">
+                            <h1 class="font-bold flex gap-2 items-center">
+                                <span class="block w-2 h-2 bg-gray-500 p-1"></span>
                                 <span><?= $project['customer'] ?></span>
                             </h1>
-                            <p class="flex gap-1 items-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
-                                </svg>
+                            <p class="flex gap-2 items-center">
+                                <span class="block w-2 h-2 bg-gray-500 p-1"></span>
                                 <span>
                                     <?= $project['location'] ?>
                                 </span>
