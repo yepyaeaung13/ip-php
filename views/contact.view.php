@@ -67,7 +67,7 @@
                     </button>
                     <div class="flex justify-center">
                         <p class="flex flex-col items-center">Office :
-                            <span class="text-center">No-57, Oakthaphayar St., Bahan Township, Yangon.</span>
+                            <span class="text-center">No(691-692), Ground Floor, Thuta (1) Street, (4) Ward, South Okkalapa Township, Yangon.</span>
                         </p>
                     </div>
 
@@ -96,7 +96,7 @@
                 </svg>
                 <span>Our location</span>
             </h1>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2480.508140175866!2d96.16642982267388!3d16.815567405037353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c193407a16f835%3A0x3b800c834fde67bc!2sIntelligence%20Power%20Co.%2C%20Ltd.!5e0!3m2!1sen!2sca!4v1720502373891!5m2!1sen!2sca" class="w-full md:h-[400px] h-56 border-2 border-third rounded-md" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3072.703166193938!2d96.16575207515281!3d16.850899983947606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTbCsDUxJzAzLjIiTiA5NsKwMTAnMDYuMCJF!5e1!3m2!1sen!2smm!4v1738974372005!5m2!1sen!2smm" class="w-full md:h-[400px] h-56 border-2 border-third rounded-md" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
     </div>

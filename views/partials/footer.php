@@ -41,12 +41,12 @@
                         <span> Phone: 09-409-709-911, 44, 55</span>
                     </div>
                 </div>
-                <p class="flex items-top gap-1 text-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                <p class="flex items-top max-sm:items-start md:gap-1 max-sm:text-center max-sm:px-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 -translate-y-0.5">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                         <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
                     </svg>
-                    <a href="https://maps.app.goo.gl/6yYwzoEbMLMzbJ2z5" target="_blank" title="Go to Map">57 Oakthaphayar St., Bahan Township, Yangon</a>
+                    <a href="https://maps.app.goo.gl/HLQAXngEBBor1EcF8" target="_blank" class="" title="Go to Map">No(691-692), Ground Floor, Thuta (1) Street, (4) Ward, South Okkalapa Township, Yangon</a>
                 </p>
 
             </div>
